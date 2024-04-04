@@ -19,13 +19,13 @@ export const SwitchContainer = styled.div`
 export const BulbSwitch = styled.div`
   display: grid;
   place-items: center;
-  color: ${(props) => props.handleBulb ? '#656565' : '#fff'};
+  color: ${(props) => props.handleBulb ? '#fff' : '#656565'};
   font-size: 22px;
   height: 50px;
   width: 70px;
   border-radius: 8px;
   /* background-color: var(--on); */
-  background-color:${(props) => props.handleBulb ? 'var(--off)' : 'var(--on)'} ;
+  background-color:${(props) => props.handleBulb ? 'var(--on)' : 'var(--off)'} ;
   cursor : pointer;
   box-shadow: inset -3px -3px 6px rgba(0, 0, 0, 0.3),
     inset 3px 3px 6px rgba(255, 255, 255, 0.3);
